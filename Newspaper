@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grimey Music Weekly - March 1996</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 20px;
+            background: #8b7966;
+            font-family: 'Times New Roman', serif;
+            line-height: 1.4;
+        }
+        
+        .newspaper {
+            max-width: 600px;
+            margin: 0 auto;
+            background: linear-gradient(135deg, #f2e8d4 0%, #e8dcc0 30%, #ddd0a8 70%, #d4c4a0 100%);
+            padding: 25px;
+            box-shadow: 
+                0 8px 25px rgba(0,0,0,0.3),
+                inset 0 1px 0 rgba(255,255,255,0.2),
+                inset 0 -1px 0 rgba(0,0,0,0.1);
+            border: 1px solid #c4b49a;
+            position: relative;
+            transform: rotate(-0.8deg);
+            border-radius: 2px;
+        }
+        
+        .newspaper::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 15% 25%, rgba(139,121,94,0.08) 1px, transparent 1px),
+                radial-gradient(circle at 85% 75%, rgba(139,121,94,0.06) 1px, transparent 1px),
+                radial-gradient(circle at 45% 60%, rgba(160,140,100,0.04) 2px, transparent 2px),
+                linear-gradient(45deg, rgba(139,121,94,0.02) 25%, transparent 25%),
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 1px,
+                    rgba(139,121,94,0.01) 1px,
+                    rgba(139,121,94,0.01) 2px
+                );
+            pointer-events: none;
+        }
+        
+        .newspaper::after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 15px;
+            right: 10px;
+            bottom: 15px;
+            background: 
+                radial-gradient(ellipse at 20% 30%, rgba(139,121,94,0.05) 30%, transparent 50%),
+                radial-gradient(ellipse at 80% 70%, rgba(139,121,94,0.03) 40%, transparent 60%);
+            pointer-events: none;
+        }
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .publication {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .date {
+            font-size: 18px;
+            color: #333;
+        }
+        
+        .demo-spotlight {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        
+        .headline {
+            font-size: 32px;
+            font-weight: bold;
+            line-height: 1.1;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        
+        .byline {
+            font-size: 14px;
+            font-style: italic;
+            margin-bottom: 15px;
+            color: #666;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 8px;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            font-size: 13px;
+            text-align: justify;
+        }
+        
+        .main-text {
+            color: #333;
+        }
+        
+        .photo-box {
+            border: 2px solid #333;
+            height: 180px;
+            width: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #666;
+            background: #f0f0f0;
+            margin-bottom: 15px;
+        }
+        
+        .song-review {
+            margin-bottom: 12px;
+        }
+        
+        .song-title {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 3px;
+        }
+        
+        .stars {
+            color: #333;
+            font-size: 12px;
+            margin-left: 5px;
+        }
+        
+        .intro {
+            font-style: italic;
+            margin-bottom: 12px;
+            font-size: 12px;
+        }
+        
+        .drop-cap {
+            float: left;
+            font-size: 48px;
+            line-height: 40px;
+            padding-right: 8px;
+            padding-top: 4px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="newspaper">
+        <div class="header">
+            <div class="publication">Grimey Music Weekly</div>
+            <div class="date">July 1996</div>
+        </div>
+        
+        <div class="demo-spotlight">DEMO SPOTLIGHT</div>
+        
+        <div class="headline">Hovercraft's brief but brilliant burn</div>
+        
+        <div class="byline">by Simon Price</div>
+        
+        <div class="content">
+            <div class="main-text">
+                <div class="intro">
+                    <span class="drop-cap">G</span>rimsby's Hovercraft—existing for only nine months (October 1995-June 1996)—have created gigantic slabs of controlled chaos that belie their brief tenure on the local scene.
+                </div>
+                
+                <p>Decompiling their breakthrough 4-track recordings reveals sophisticated songwriting hidden beneath their reputation for live mayhem. Much of the band's success stems from songwriter Charlie "Pepper" Wildman's distinctive voice—a compelling blend of Bob Dylan's nasal sneer and Paul Weller's mod swagger that appeals to pensioners, musicians and students alike.</p>
+                
+                <div class="song-review">
+                    <div class="song-title">Mr Tooting Brown <span class="stars">★★★★☆</span></div>
+                    <p>Their breakthrough single and local chart-topper showcases cataclysmic songwriting beneath accessible rock structures. Wildman's vocal delivery transforms what could be standard indie fare into something genuinely subversive. The track's cross-demographic appeal speaks to sophisticated composition masquerading as straightforward rock 'n' roll.</p>
+                </div>
+                
+                <div class="song-review">
+                    <div class="song-title">New Pine Overcoat <span class="stars">★★★☆☆</span></div>
+                    <p>Charting at No. 7—disappointing by the band's standards—this deceptively upbeat track reveals darker undertones upon closer inspection. The contrast between optimistic musical arrangements and troubling lyrical content creates an unsettling listening experience that rewards repeated attention. Classic Hovercraft: accessibility hiding complexity.</p>
+                </div>
+            </div>
+            
+            <div class="sidebar">
+                <div class="photo-box">
+                    <img src="https://davidmarsden.info/uploads/2025/file-000000003a546243ba3a4574ed3c07102.png" alt="Hovercraft band photo" style="width: 100%; height: 100%; object-fit: cover; border: none;" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div style="width: 100%; height: 100%; background: linear-gradient(45deg, #e8e0d0 25%, #f4f1e8 25%, #f4f1e8 50%, #e8e0d0 50%, #e8e0d0 75%, #f4f1e8 75%); background-size: 8px 8px; display: none; align-items: center; justify-content: center; font-size: 11px; color: #666; text-align: center; line-height: 1.2;">
+                        <div>
+                            <strong>Hovercraft</strong><br>
+                            (L-R: God, Shimble,<br>
+                            Pepper, Nasty)
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="song-review">
+                    <div class="song-title">Now You're God/Dying Comes So Easy <span class="stars">★★★★☆</span></div>
+                    <p>A two-part composition emerging as the band's most ambitious work. Religious imagery and themes of fame/destruction create a complex narrative structure that elevates Hovercraft beyond their lo-fi four-track origins into genuinely profound territory.</p>
+                </div>
+
+                <div style="border-top: 1px solid #ccc; margin-top: 15px; padding-top: 12px; font-size: 11px; font-style: italic; color: #666;">
+                    <strong>Previous gigs:</strong><br>
+                    The Hainton - May 11th<br>
+                    The Ropewal - May 16th, 18th<br>
+                    Lloyds - April 25th<br>
+                    The County - April 21st, March 31st, March 3rd<br>
+                    The Ropewal - Feb 5th<br><br>
+                    
+                    <strong>Forthcoming (now cancelled):</strong><br>
+                    Spanish Steps, Clee - June 22nd<br>
+                    Beats, Clee - July 3rd (TBC)<br>
+                    The County, Grimsby - August 4th
+                </div>
+
+                <div style="margin-top: 12px; font-size: 11px; color: #666;">
+                    <strong>The end:</strong> After their final Spanish Steps performance, Charlie "Pepper" Wildman took the first train out of town this morning. "He just said 'that's it' and walked off," reports bassist Ron Nasty. Manager Shaun confirmed all future bookings have been cancelled. "We knew it was over when he didn't show for rehearsal."
+                </div>
+
+                <div style="margin-top: 10px; font-size: 10px; color: #777; font-style: italic;">
+                    Contact: Shaun (Management) 01472 343 543
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
